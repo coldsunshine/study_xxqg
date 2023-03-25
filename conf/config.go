@@ -60,7 +60,7 @@ type Config struct {
 	CronRandomWait int    `json:"cron_random_wait" yaml:"cron_random_wait" mapstructure:"cron_random_wait"`
 	EdgePath       string `json:"edge_path" yaml:"edge_path" mapstructure:"edge_path"`
 	StartWait      int    `json:"start_wait" yaml:"start_wait" mapstructure:"start_wait"`
-	// cookie强制过期时间，单位为h
+	// cookie强制过期时间，单位为hh
 	ForceExpiration int `json:"force_expiration" yaml:"force_expiration" mapstructure:"force_expiration"`
 	Retry           struct {
 		// 重试次数
